@@ -1,0 +1,359 @@
+=========WELCOME TO BEYOND BLOCKS SESSION 1=========
+
+====This is a video of the terminal interactions during the session====
+
+Last login: Thu Oct 24 16:35:27 on ttys003
+Carens-MacBook-Air:~ carenthomas$ python3
+Python 3.3.2 (v3.3.2:d047928ae3f6, May 13 2013, 13:52:24) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> variable
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'variable' is not defined
+>>> variable = 3
+>>> variable
+3
+>>> x = 4
+>>> x
+4
+>>> x = 4 + 3
+>>> x
+7
+>>> x = x + 3
+>>> x
+10
+>>> x + variable
+13
+>>> x = variable
+>>> x
+3
+>>> x = 'variable'
+>>> x
+'variable'
+>>> x = x + 3
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Can't convert 'int' object to str implicitly
+>>> print x
+  File "<stdin>", line 1
+    print x
+          ^
+SyntaxError: invalid syntax
+>>> print(x)
+variable
+>>> print(variable)
+3
+>>> print(hello)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'hello' is not defined
+>>> print[hello]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'hello' is not defined
+>>> print('hello')
+hello
+>>> print(variable)
+3
+>>> print('variable')
+variable
+>>> Print(variable)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Print' is not defined
+>>> print(Variable)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Variable' is not defined
+>>> print("Variable")
+Variable
+>>> print(print('Variable')
+... 
+KeyboardInterrupt
+>>> print(print('variable'))
+variable
+None
+>>> w = print('variable')
+variable
+>>> w
+>>> print('John')
+John
+>>> 4 + 3
+7
+>>> 4 - 3
+1
+>>> 4 * 3
+12
+>>> 12 / 3
+4.0
+>>> 12 % 3
+0
+>>> 13 % 4
+1
+>>> 4 ** 2
+16
+>>> 15 ** 3
+3375
+>>> 15**2
+225
+>>> 12 % 4
+0
+>>> 6 / 4
+1.5
+>>> 12 / 7
+1.7142857142857142
+>>> 12 // 7
+1
+>>> 12 / 4
+3.0
+>>> 12 // 4
+3
+>>> 4 = 4
+  File "<stdin>", line 1
+SyntaxError: can't assign to literal
+>>> 4 == 4
+True
+>>> 4 == 2
+False
+>>> 4 != 4
+False
+>>> 2 != 4
+True
+>>> True and False
+False
+>>> True and True
+True
+>>> 4 == 4 and 5 == 5
+True
+>>> 4 == 3 or 1 == 1
+True
+>>> not True
+False
+>>> if 4 == 4:
+...     return True
+... 
+  File "<stdin>", line 2
+SyntaxError: 'return' outside function
+>>> if 4 == 4:
+...     return True
+... 
+  File "<stdin>", line 2
+SyntaxError: 'return' outside function
+>>> if 4 == 4:
+...     return True
+... 
+  File "<stdin>", line 2
+SyntaxError: 'return' outside function
+>>> if 4 == 4:
+...     return True
+... 
+  File "<stdin>", line 2
+SyntaxError: 'return' outside function
+>>> if 4 == 4:
+...     print(4)
+... 
+4
+>>> x = 4
+>>> if x == 4:
+...     return True
+... 
+  File "<stdin>", line 2
+SyntaxError: 'return' outside function
+>>> if x == 4:
+...    return True
+... 
+  File "<stdin>", line 2
+SyntaxError: 'return' outside function
+>>> if x == 4:
+...     print(x)
+... 
+4
+>>> if x == 4:
+...     print(x)
+... else:
+...     print('no')
+... 
+4
+>>> x = 5
+>>> if x == 4:
+...     print(x)
+... else:
+...     print('no')
+... 
+no
+>>> exit()
+Carens-MacBook-Air:~ carenthomas$ pwd
+/Users/carenthomas
+Carens-MacBook-Air:~ carenthomas$ ls
+#hello-world.py#    Library
+#xf#            Movies
+Applications        Music
+Desktop         Pictures
+Documents       Public
+Downloads       xf
+Carens-MacBook-Air:~ carenthomas$ cd Desktop
+Carens-MacBook-Air:Desktop carenthomas$ ls
+CarenThomas_Schedule.png
+Screen Shot 2013-06-10 at 11.06.54 AM.png
+Screen Shot 2013-09-10 at 3.05.26 PM.png
+file.py
+Carens-MacBook-Air:Desktop carenthomas$ cd
+Carens-MacBook-Air:~ carenthomas$ cd Desktop
+Carens-MacBook-Air:Desktop carenthomas$ ls
+CarenThomas_Schedule.png
+Screen Shot 2013-06-10 at 11.06.54 AM.png
+Screen Shot 2013-09-10 at 3.05.26 PM.png
+file.py
+Carens-MacBook-Air:Desktop carenthomas$ python3 -i file.py
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python3 -i file.py
+4
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python3 -i file.py
+4
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ cd
+Carens-MacBook-Air:~ carenthomas$ python3 -i file.py
+/Library/Frameworks/Python.framework/Versions/3.3/Resources/Python.app/Contents/MacOS/Python: can't open file 'file.py': [Errno 2] No such file or directory
+Carens-MacBook-Air:~ carenthomas$ cd Desktop
+Carens-MacBook-Air:Desktop carenthomas$ ls
+CarenThomas_Schedule.png
+Screen Shot 2013-06-10 at 11.06.54 AM.png
+Screen Shot 2013-09-10 at 3.05.26 PM.png
+file.py
+Carens-MacBook-Air:Desktop carenthomas$ python3 -i file.py
+4
+>>> 
+>>> 
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ 
+Carens-MacBook-Air:Desktop carenthomas$ 
+Carens-MacBook-Air:Desktop carenthomas$ 
+Carens-MacBook-Air:Desktop carenthomas$ 
+Carens-MacBook-Air:Desktop carenthomas$ python -i file.py
+4
+>>> square(5)
+25
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python -i file.py
+4
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python -i file.py
+4
+100
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python -i file.py
+4
+100
+>>> average(12, 53)
+32
+>>> average(12, 53)
+32
+>>> def average(x, y):
+...     return (x + y) / 2
+... 
+>>> average(12, 53)
+32
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python -i file.py
+4
+100
+>>> average(12, 53)
+32
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python3 -i file.py
+4
+100
+>>> average(12, 53)
+32.5
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python3 -i file.py
+4
+100
+>>> bigger(4, 7)
+7
+>>> bigger(10, 13)
+13
+>>> bigger(24, 1)
+24
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python3 -i file.py
+4
+100
+>>> function(50)
+100
+>>> function(4)
+128
+>>> function(15)
+120
+>>> function(150)
+150
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python3 -i file.py
+4
+100
+>>> for_factorial(3)
+2
+>>> exit()
+Carens-MacBook-Air:Desktop carenthomas$ python3 -i file.py
+4
+100
+>>> print_factors(3, 10, 2)
+4
+6
+8
+10
+done
+>>> print_factors(3, 100, 2)
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+34
+36
+38
+40
+42
+44
+46
+48
+50
+52
+54
+56
+58
+60
+62
+64
+66
+68
+70
+72
+74
+76
+78
+80
+82
+84
+86
+88
+90
+92
+94
+96
+98
+100
+done
+>>> 
